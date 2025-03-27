@@ -20,7 +20,7 @@ folders = [
     r'C:\Users\ishaa\Documents\Xenium\Data\output-XETG00126__0029731__R24hr__20241213__182319'
 ]
 labels = ['0hr', '4hr', '8hr', '12hr', '16hr', '24hr', 'R0hr', 'R4hr', 'R8hr', 'R12hr', 'R16hr', 'R24hr']
-postfix = os.path.join(r'\morphology_focus\morphology_focus_0001.ome.tif')
+postfix = r'\morphology_focus\morphology_focus_0001.ome.tif'
 
 # these are parameters for distributed_eval(), see the end of this script
 model_kwargs = {'gpu': False, 'model_type': 'cyto3'}
